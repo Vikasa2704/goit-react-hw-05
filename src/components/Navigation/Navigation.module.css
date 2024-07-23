@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    gap: 12px;
+}
+.link{
+    text-decoration: none;
+    color: aqua;
+}
+link:hover{
+    text-decoration: underline;
+}
+.isActive {
+    color: red;
+}
