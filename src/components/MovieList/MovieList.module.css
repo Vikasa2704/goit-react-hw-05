@@ -1,22 +1,26 @@
-.itemsContainer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 20px;
-	margin-bottom: 20px;
+.container {
+    display: grid;
+        grid-template-columns: repeat(auto-fit, 250px);
+        gap: 16px;
+        padding: 40px;
+        justify-content: center;
 }
 
-.cardItem {
-	border: 1px solid #646cff;
-	border-radius: 8px;
-	width: 300px;
-	background-color: #213547;
-	cursor: pointer;
+.cardWrapper {
+    border: 1px solid rgb(255 165 0 / 30%);
+        border-radius: 4px;
+        background-color: rgb(238 237 237 / 35%);
+        transition: transform 200ms ease-out;
+}
+.cardWrapper:hover {
+    transform: scale(1.03);
+}
+.movieName {
+    padding: 6px;
+        color: #000;
+        text-align: center;
 }
 
-@media (prefers-color-scheme: light) {
-	.cardItem {
-		background-color: #f9f9f9;
-		color: #213547;
-	}
+.movieImg {
+    width: 250px;
 }

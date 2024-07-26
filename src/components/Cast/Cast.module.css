@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 16px;
+     padding: 40px;
+    justify-content: center;
+}
+
+.cardWrapper {
+    border: 1px solid rgba(102, 242, 64, 0.959);
+    border-radius: 4px;
+    background-color: rgb(238 237 237 / 35%);
+}
+
+.memberWrapper {
+    padding: 8px;
+        text-align: center;
+}

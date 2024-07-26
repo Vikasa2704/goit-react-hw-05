@@ -1,0 +1,64 @@
+.backBtn {
+    padding: 8px 12px;
+        border-radius: 8px;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: medium;
+        background-color: transparent;
+        color: white;
+        border: 1px solid orange;
+        transition: border 200ms ease-out;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+        
+    .backBtn:hover,
+    .backBtn:active,
+    .backBtn:focus {
+      border: 1px solid white;
+      color: orange;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .imgWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .imgMovie {
+        width: 250px;
+    }
+    
+    .movieDescr {
+        width: 30%;
+        font-size: 18px;
+    }
+    
+    .navBarCastReviews {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        box-shadow: 0px 0px 4px 4px rgb(255 165 0 / 30%);
+        text-align: center;
+        padding: 18px;
+    }
+    
+    .linkNavBar {
+        font-weight: 500;
+        font-size: 24px;
+        color: white;
+    }
+    
+    .linkNavBar:hover,
+    .linkNavBar:focus {
+        text-decoration: underline;
+        color: orange;
+    }
