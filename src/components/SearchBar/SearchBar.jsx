@@ -17,7 +17,7 @@ const SearchBar = ({ onSubmit, error }) => {
     <div>
     <form className={css.form} onSubmit={handleSubmit}>
       <input className={css.input}
-        type="text"
+        type="search"
         placeholder="Search movies..."
         name='query'
         value={query}
